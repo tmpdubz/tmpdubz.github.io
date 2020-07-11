@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "tmpdubz.github.io"
 title        = "Tomasz Dubiel"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
