@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 date: 2020-07-08T17:34:08-04:00
-draft: true
+draft: false
 ---
 # 💼 Micro Focus (Tech Lead - Kubernetes) 
 ## Feb 2019 - Present
