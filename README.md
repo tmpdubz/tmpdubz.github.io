@@ -1,6 +1,6 @@
 # Personal Static Site
 - Mostly a place to hold my CV
-- Generated with Hugo
+- Generated with [Hugo](https://gohugo.io/documentation/)
 - Built with GitHub actions
 - Deployed with [GitHub pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 - Uses [Tanka Theme](https://themes.gohugo.io/hugo-tanka/)
