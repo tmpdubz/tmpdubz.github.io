@@ -2,11 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/resume/</loc>
+    <loc>https://example.com/resume/</loc>
     <lastmod>2020-07-08T17:34:08-04:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://example.com/categories/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>https://example.com/</loc>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
   </url>
 </urlset>
