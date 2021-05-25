@@ -1,6 +1,6 @@
-baseurl = "https://example.com"
-title = "Hugo Tanka Theme Demo"
-author = "Nan Xiao"
+baseurl = "https://tdubiel.dev"
+title = "Tomasz Dubiel"
+author = "Tomasz Dubiel"
 canonifyurls = true
 languagecode = "en"
 theme = "hugo-tanka"
