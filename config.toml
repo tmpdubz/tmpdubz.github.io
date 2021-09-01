@@ -1,45 +1,47 @@
-baseurl = "https://tdubiel.dev"
+baseURL = "https://tdubiel.dev"
+languageCode = "en-us"
 title = "Tomasz Dubiel"
-author = "Tomasz Dubiel"
-canonifyurls = true
-languagecode = "en"
-theme = "hugo-tanka"
-
-enableEmoji = true
-hasCJKLanguage = false
-
-pygmentsstyle = "vs"
-pygmentscodefences = true
-
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+theme = "minimal"
+disqusShortname = ""
+googleAnalytics = ""
 
 [params]
-  sitename = "Tomasz Dubiel"
-  faviconfile = "images/favicon.png"
-  highlightjs = true
-  highlightjslanguages = ["r", "python", "stan"]
-  uselatex = true
-  progressively = false
-# commentsrepo = "user/repo"
+    author = "Tomasz Dubiel"
+    description = "Software friend"
+    githubUsername = "tmpdubz"
+    accent = "teal"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "scala", "javascript", "bash"]
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-[[menu.primary]]
-    name = "Home"
+[[menu.main]]
     url = "/"
+    name = "Home"
     weight = 1
-[[menu.primary]]
+
+[[menu.main]]
     name = "CV"
     url = "/resume/"
     weight = 2
-[[menu.primary]]
-    name = "GitHub"
-    url = "https://github.com/tmpdubz"
-    weight = 3
-[[menu.primary]]
-    name = "LinkedIn"
+
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+[[menu.icon]]
+    url = "mailto:t.m.dubiel@gmail.com"
+    name = "fas fa-envelope"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/tmpdubz/"
+    name = "fab fa-github"
+    weight = 2
+
+[[menu.icon]]
     url = "https://www.linkedin.com/in/tmpdubz/"
-    weight = 4
+    name = "fab fa-linkedin"
+    weight = 3

@@ -3,4 +3,16 @@
 - Generated with [Hugo](https://gohugo.io/documentation/)
 - Built with GitHub actions
 - Deployed with [GitHub pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
-- Uses [Tanka Theme](https://themes.gohugo.io/hugo-tanka/)
+- Uses [Minimal Themes](https://themes.gohugo.io/themes/minimal/)
+
+
+# Theme: Minimal
+* Update the theme
+```
+git submodule update --remote themes/minimal
+```
+
+# Test locally
+```
+hugo server -D
+```
