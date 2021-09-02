@@ -16,6 +16,8 @@ googleAnalytics = ""
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["go", "scala", "javascript", "bash"]
+    favicon = "favicon.ico"
+    staticDir = "static"
 
 [[menu.main]]
     url = "/"
