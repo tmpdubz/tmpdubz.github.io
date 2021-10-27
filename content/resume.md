@@ -6,8 +6,8 @@ draft: false
 # **Foko Retail (DevOps Engineer)**
 ### [Acquired by Workforce Software]</span>
 ## November 2020 - Present
-- Introduced distributed tracing to Foko's microservice backend using OpenTelemetry
-- Designed and implemented MVP for an analytics/reporting ETL pipeline
+- Introduced distributed tracing to Foko's microservice backend using OpenTelemetry, reducing the time it takes to diagnose the root-cause of issues in production from hours to minutes.
+- Designed and implemented MVP for an analytics/reporting ETL pipeline, allowing Customer Success to self-serve reports. Previously this it required an engineer to manually run scripts on a VM.
 - As part of the cloud migration from AWS to GCP, implemented data-driven autoscaling policies. Prior to this all scaling was done manually.
 
 **Key technologies**: ArgoCD/Workflows, GCP suite of products (GKE, BigQuery, Memorystore, ...), Kubernetes, Opentelemetry, flux2
