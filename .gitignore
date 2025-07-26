@@ -1,0 +1,33 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Nix
+/result
+/result-*
+/.nix-profile/
+/.nox/
+
+# Direnv
+.envrc
+.direnv/
+
+# OS / Editor / Tooling junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+.idea/
+.vscode/
+*.code-workspace
+
+# Node (if using npm/yarn for frontend assets)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Hugo build lock file
+.hugo_build.lock
