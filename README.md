@@ -17,6 +17,28 @@
 git submodule update --remote themes/minimal
 ```
 
+* To reload git submodules (you'll need to do this if you're cloning this after not touching it for a while)
+```
+git submodule update --init --recursive
+```
+
+# Changing Themes
+If you want to change themes, you can pull a theme with a git submodule by running
+
+```
+THEME_REPO=""
+NAME_OF_THEME=""
+git submodule add git@github.com:${THEME_REPO}.git themes/${NAME_OF_THEME}
+```
+
+e.g.
+```
+
+THEME_REPO="nunocoracao/blowfish"
+NAME_OF_THEME="blowfish"
+git submodule add git@github.com:${THEME_REPO}.git themes/${NAME_OF_THEME}
+```
+
 # Test locally
 ```
 hugo server -D
