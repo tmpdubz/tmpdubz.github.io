@@ -1,0 +1,16 @@
+[[main]]
+name = "GitHub"
+pre = "github"
+url = "https://github.com/tmpdubz"
+identifier = "F91SK2wmQ2"
+weight = 9_999
+
+[[main]]
+name = "Resume"
+pre = "fire"
+pageRef = "resume/index"
+identifier = "V58BVNhfxD"
+weight = 9_999
+
+[[footer]]
+none = "none"
