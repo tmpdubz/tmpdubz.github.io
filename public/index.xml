@@ -1,19 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Tanka Theme Demo</title>
-    <link>https://example.com/</link>
-    <description>Recent content on Hugo Tanka Theme Demo</description>
+    <title>Tomasz Dubiel</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Tomasz Dubiel</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2025 Tomasz Dubiel</copyright>
+    <lastBuildDate>Wed, 08 Jul 2020 17:34:08 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Resume</title>
-      <link>https://example.com/resume/</link>
+      <link>http://localhost:1313/resume/</link>
       <pubDate>Wed, 08 Jul 2020 17:34:08 -0400</pubDate>
       
-      <guid>https://example.com/resume/</guid>
-      <description>💼 Foko Retail (DevOps Engineer) November 2020 - May 2021 [Acquired by Workforce Software]  Introdcued distributed tracing to Foko microservices using Opentelemetry Designed and implemented MVP for an analytics/reporting ETL pipeline As part of the cloud migration from AWS to GCP, implemented data-driven autoscaling policies. Previously all scaling was done manually.  Key technologies: ArgoCD/Workflows, GCP suite of products (GKE, BigQuery, Memorystore, &amp;hellip;), Kubernetes, Opentelemetry, flux2
-💼 Micro Focus (Tech Lead - Kubernetes) Feb 2019 - October 2020  Architected a Kubernetes deployment for Interset’s big data infrastructure Led the functional team that delivered the first integration of Interset&amp;rsquo;s analytics engine with HPE Arcsight Authored and lead training sessions with various internal audiences  Technical deep-dives on Apache Spark and Vertica running on Kubernetes for technical audiences High-level overviews of machine learning/AI applications in cybersecurity for cross-functional audiences   Developed data integrity tests, identifying and resolving critical reliability issues  Key technologies: Apache Kafka, Amazon AWS, Arcsight CDF, Docker, Kubernetes, HPE Vertica, Saltstack</description>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Some Things I&amp;rsquo;ve Done 
+    &lt;div id=&#34;some-things-ive-done&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#some-things-ive-done&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;&lt;strong&gt;Shopify &amp;ndash; SRE&lt;/strong&gt; 
+    &lt;div id=&#34;shopify&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#shopify&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;November 2021 – Present&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;&lt;strong&gt;Foko Retail — DevOps Engineer&lt;/strong&gt; 
+    &lt;div id=&#34;foko-retail--devops-engineer&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#foko-retail--devops-engineer&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Acquired by Workforce Software&lt;/em&gt;`
+&lt;strong&gt;November 2020 – November 2021&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Introduced distributed tracing to Foko’s microservice backend using OpenTelemetry, reducing production issue triage time from hours to minutes.&lt;/li&gt;
+&lt;li&gt;Designed and implemented an MVP analytics/reporting ETL pipeline, enabling Customer Success to self-serve reports without engineering support.&lt;/li&gt;
+&lt;li&gt;Led implementation of data-driven autoscaling policies during cloud migration from AWS to GCP, eliminating manual intervention.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; GCP (GKE, BigQuery, Memorystore), Kubernetes, ArgoCD/Workflows, flux2, OpenTelemetry&lt;/p&gt;</description>
+      
     </item>
     
   </channel>

@@ -1,0 +1,21 @@
+title = "Tomasz Dubiel"
+
+[params]
+logo = "tmpdubz_nobg.png"
+
+  [params.author]
+  name = "Tomasz Dubiel"
+  image = "tom_logo.png"
+  headline = "My anchor point in the chaotic seas of the modern web"
+  bio = "I do it four the nines"
+
+    [[params.author.links]]
+    github = "https://github.com/tmpdubz"
+
+    [[params.author.links]]
+    linkedin = "https://www.linkedin.com/in/tmpdubz/"
+
+["params.author"]
+name = "Tomasz Dubiel"
+image = "tom_logo.png"
+bio = "I do it four the nines"

@@ -1,0 +1,13 @@
+defaultAppearance = "light"
+colorScheme = "forest"
+defaultBackgroundImage = "."
+enableSearch = false
+
+[homepage]
+layout = "profile"
+showRecent = ""
+homepageImage = "."
+layoutBackgroundBlur = true
+
+[header]
+layout = "basic"

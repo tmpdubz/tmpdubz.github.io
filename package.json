@@ -1,0 +1,29 @@
+{
+  "name": "tmpdubz.github.io",
+  "version": "1.0.0",
+  "description": "A place to hold my CV and other stuff",
+  "main": "index.js",
+  "scripts": {
+    "bf": "blowfish-tools",
+    "dev": "hugo server",
+    "build": "hugo --minify",
+    "init": "blowfish-tools init",
+    "update": "blowfish-tools update",
+    "help": "blowfish-tools help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmpdubz/tmpdubz.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tmpdubz/tmpdubz.github.io/issues"
+  },
+  "homepage": "https://github.com/tmpdubz/tmpdubz.github.io#readme",
+  "devDependencies": {
+    "blowfish-tools": "^1.10.0"
+  }
+}
