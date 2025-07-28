@@ -3,7 +3,6 @@
 - Generated with [Hugo](https://gohugo.io/documentation/)
 - Built with GitHub actions
 - Deployed with [GitHub pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
-- Uses [Minimal Themes](https://themes.gohugo.io/themes/minimal/)
 
 # How does the deployment work?
 - GitHub action triggers on push to `main`
