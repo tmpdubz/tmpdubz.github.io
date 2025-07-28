@@ -10,6 +10,9 @@ logo = "tmpdubz_nobg.png"
   bio = "I do it four the nines"
 
     [[params.author.links]]
+    fire = "https://tdubiel.dev/resume/"
+
+    [[params.author.links]]
     github = "https://github.com/tmpdubz"
 
     [[params.author.links]]
