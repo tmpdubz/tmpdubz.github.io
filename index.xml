@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tomasz Dubiel</title><link>https://tdubiel.dev/</link><description>Recent content on Tomasz Dubiel</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://tdubiel.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Resume</title><link>https://tdubiel.dev/resume/</link><pubDate>Wed, 08 Jul 2020 17:34:08 -0400</pubDate><guid>https://tdubiel.dev/resume/</guid><description>Foko Retail (DevOps Engineer) [Acquired by Workforce Software] November 2020 - Present Introduced distributed tracing to Foko&amp;rsquo;s microservice backend using OpenTelemetry, reducing the time it takes to diagnose the root-cause of issues in production from hours to minutes. Designed and implemented MVP for an analytics/reporting ETL pipeline, allowing Customer Success to self-serve reports. Previously this required an engineer to manually run scripts on a VM. As part of the cloud migration from AWS to GCP, implemented data-driven autoscaling policies.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tomasz Dubiel</title><link>https://tdubiel.dev/</link><description>Recent content on Tomasz Dubiel</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Tomasz Dubiel</copyright><lastBuildDate>Wed, 08 Jul 2020 17:34:08 -0400</lastBuildDate><atom:link href="https://tdubiel.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Resume</title><link>https://tdubiel.dev/resume/</link><pubDate>Wed, 08 Jul 2020 17:34:08 -0400</pubDate><guid>https://tdubiel.dev/resume/</guid><description>&lt;h1 class="relative group">Some Things I&amp;rsquo;ve Done
+&lt;div id="some-things-ive-done" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#some-things-ive-done" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h1>
+&lt;h2 class="relative group">&lt;strong>Shopify &amp;ndash; SRE&lt;/strong>
+&lt;div id="shopify" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#shopify" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>&lt;strong>November 2021 – Present&lt;/strong>&lt;/p>
+&lt;h2 class="relative group">&lt;strong>Foko Retail — DevOps Engineer&lt;/strong>
+&lt;div id="foko-retail--devops-engineer" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#foko-retail--devops-engineer" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>&lt;em>Acquired by Workforce Software&lt;/em>`
+&lt;strong>November 2020 – November 2021&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Introduced distributed tracing to Foko’s microservice backend using OpenTelemetry, reducing production issue triage time from hours to minutes.&lt;/li>
+&lt;li>Designed and implemented an MVP analytics/reporting ETL pipeline, enabling Customer Success to self-serve reports without engineering support.&lt;/li>
+&lt;li>Led implementation of data-driven autoscaling policies during cloud migration from AWS to GCP, eliminating manual intervention.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Technologies:&lt;/strong> GCP (GKE, BigQuery, Memorystore), Kubernetes, ArgoCD/Workflows, flux2, OpenTelemetry&lt;/p></description></item></channel></rss>
