@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build & Deploy Hugo Site
 
 on:
   push:
@@ -6,24 +6,27 @@ on:
       - main
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
         with:
           submodules: true
           fetch-depth: 0
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - name: Install Nix
+        uses: cachix/install-nix-action@v25
         with:
-          hugo-version: 'latest'
-          extended: true
+          extra_nix_config: |
+            experimental-features = nix-command flakes
 
-      - name: Build
-        run: hugo --minify
+      - name: Build site with nix develop
+        run: |
+          nix develop --command hugo --minify
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
