@@ -1,5 +1,5 @@
-defaultAppearance = "light"
-colorScheme = "forest"
+defaultAppearance = "dark"
+colorScheme = "ocean"
 defaultBackgroundImage = "."
 enableSearch = false
 
