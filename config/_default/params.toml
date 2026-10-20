@@ -1,13 +1,22 @@
 defaultAppearance = "dark"
 colorScheme = "ocean"
-defaultBackgroundImage = "."
 enableSearch = false
+description = "Tomasz Dubiel — Site Reliability Engineer at Shopify. Production reliability, automation, and distributed systems."
 
 [homepage]
-layout = "profile"
-showRecent = ""
-homepageImage = "."
-layoutBackgroundBlur = true
+layout = "custom"
+showRecent = false
 
 [header]
 layout = "basic"
+
+[footer]
+showThemeAttribution = false
+
+[article]
+showDate = false
+showDateUpdated = false
+showReadingTime = false
+showWordCount = false
+showAuthor = false
+showPagination = false

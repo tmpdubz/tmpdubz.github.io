@@ -6,10 +6,11 @@
   "scripts": {
     "bf": "blowfish-tools",
     "dev": "hugo server",
-    "build": "hugo --minify",
+    "build": "python3 scripts/export-cv.py && hugo --minify",
     "init": "blowfish-tools init",
     "update": "blowfish-tools update",
-    "help": "blowfish-tools help"
+    "help": "blowfish-tools help",
+    "pdf": "python3 scripts/export-cv.py"
   },
   "repository": {
     "type": "git",

@@ -2,6 +2,8 @@
 title: "Resume"
 date: 2020-07-08T17:34:08-04:00
 draft: false
+type: "resume"
+description: "Tomasz Dubiel — Site Reliability Engineer at Shopify. Experience in production reliability, database automation, Kubernetes, and data systems."
 ---
 
 Site Reliability Engineer at Shopify with a background in Kubernetes, observability, and production data systems. Build automation, lead incident responses, and turn recurring production problems into lasting fixes.
@@ -14,9 +16,10 @@ November 2021 – Present
 
 In Enterprise SRE, support Shopify’s largest and highest-volume merchants through incident response and command, in-depth production investigations, and capacity planning for flash sales.
 
+Turned patterns from months of production incidents into two reliability improvements:
+
 - Built automation that manages database capacity across Shopify’s entire storefront fleet, scaling up for flash sales and back down afterward.
 - Built an adaptive rate limiter for Shopify’s Admin GraphQL API that slows API traffic during database overload, protecting checkouts and storefronts while engineers investigate.
-- Analyzed months of incident data to identify recurring failure patterns and prioritize reliability improvements.
 
 Previously worked in Data Reliability Engineering, bringing SRE practices to Shopify’s data platform.
 

@@ -1,0 +1,72 @@
+/* Local additions to Blowfish; keep theme files untouched. */
+:root { --profile-accent: #38bdf8; }
+html:not(.dark) { --profile-accent: #0369a1; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--profile-accent); outline-offset: 5px; border-radius: 3px; }
+.profile-home { padding: 4rem 0 1rem; }
+.profile-intro { max-width: 48rem; }
+.eyebrow { font-size: .75rem; font-weight: 650; letter-spacing: .11em; text-transform: uppercase; color: var(--profile-accent); }
+.profile-intro h1 { font-size: clamp(2.6rem, 6vw, 4.5rem); line-height: 1.08; letter-spacing: -.045em; font-weight: 800; margin: 1.1rem 0; }
+.profile-role { font-size: clamp(1.2rem, 3vw, 1.6rem); line-height: 1.5; font-weight: 550; }
+.profile-description { max-width: 39rem; margin-top: 1.4rem; opacity: .8; }
+.profile-actions, .resume-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.2rem; margin-top: 1.8rem; }
+.profile-actions > a:not(.primary-link), .outside-work a, .resume-contact a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .25em; }
+.primary-link { display: inline-flex; align-items: center; gap: .65rem; background: var(--profile-accent); color: #082f49; font-weight: 650; padding: .65rem 1rem; border-radius: .4rem; text-decoration: none; }
+html:not(.dark) .primary-link { color: white; }
+.selected-work { margin-top: 5rem; padding-top: 2.5rem; border-top: 1px solid rgb(128 128 128 / .25); }
+.section-intro { max-width: 40rem; }
+.section-intro h2 { margin: .6rem 0 1rem; font-size: clamp(1.6rem, 4vw, 2.1rem); line-height: 1.25; font-weight: 700; letter-spacing: -.025em; }
+.section-intro > p:last-child { opacity: .8; }
+.work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+.work-card { padding: 1.5rem; border: 1px solid rgb(128 128 128 / .3); border-radius: .6rem; }
+.work-context { font-size: .75rem; color: var(--profile-accent); }
+.work-card h3 { font-size: 1.3rem; font-weight: 650; line-height: 1.4; margin: .8rem 0 1rem; }
+.work-card > p:not(.work-context) { font-size: 1rem; line-height: 1.7; margin-top: .9rem; opacity: .85; }
+.outside-work { max-width: 41rem; margin: 3.5rem 0 1rem; }
+.outside-work h2 { font-size: 1.35rem; font-weight: 650; margin-bottom: .8rem; }
+.outside-work p { margin-bottom: 1rem; opacity: .8; }
+.resume-page { max-width: 49rem; margin: 3rem auto; }
+.resume-header { padding-bottom: 2rem; border-bottom: 1px solid rgb(128 128 128 / .3); }
+.resume-header h1 { font-size: clamp(2.2rem, 5vw, 3rem); line-height: 1.2; font-weight: 750; letter-spacing: -.035em; margin-top: .7rem; }
+.resume-role { margin-top: .5rem; font-size: 1.2rem; }
+.resume-contact { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; margin-top: 1rem; font-size: .9rem; }
+.resume-contact a { overflow-wrap: anywhere; }
+.resume-actions { font-size: .9rem; }
+.resume-actions button { text-decoration: underline; text-underline-offset: .25em; }
+.file-type { font-size: .7rem; font-weight: 500; }
+.resume-content { margin-top: 2rem; max-width: none; }
+.resume-content h2 { margin-top: 2.4rem; }
+.resume-content h3 { margin-top: 1.9rem; margin-bottom: .4rem; }
+.resume-content h3 + p { margin-top: 0; font-size: .9rem; opacity: .8; }
+.print-only { display: none; }
+@media (max-width: 640px) {
+  .profile-home { padding-top: 2.5rem; }
+  .selected-work { margin-top: 3rem; }
+  .work-grid { grid-template-columns: 1fr; }
+  .profile-actions { gap: 1rem; font-size: .95rem; }
+  .resume-page { margin-top: 2rem; }
+}
+@page { size: Letter; margin: 15mm 17mm; }
+@media print {
+  html, html.dark, body { background: white !important; color: #111 !important; color-scheme: light !important; }
+  body { display: block !important; height: auto !important; max-width: none !important; padding: 0 !important; margin: 0 !important; font-size: 10pt !important; line-height: 1.35 !important; }
+  .main-menu, #site-footer, #the-top, #top-scroller, .screen-only, .print\:hidden { display: none !important; }
+  .print-only { display: inline !important; }
+  .resume-page { max-width: none; margin: 0; }
+  .resume-header { padding-bottom: 10pt; border-bottom: 1px solid #aaa; }
+  .resume-header h1 { font-size: 24pt; margin: 0; }
+  .resume-role { font-size: 12pt; margin-top: 3pt; }
+  .resume-contact { font-size: 9pt; margin-top: 6pt; gap: 12pt; }
+  .resume-content { margin-top: 12pt; font-size: 10pt; line-height: 1.4; }
+  .resume-content, .resume-content * { color: #111 !important; background: transparent !important; opacity: 1 !important; }
+  .resume-content h2 { font-size: 13pt; margin: 15pt 0 6pt; }
+  .resume-content h3 { font-size: 11pt; margin: 12pt 0 3pt; }
+  .resume-content h3 + p { font-size: 9pt; margin-top: 0; break-after: avoid; }
+  .resume-content p { margin: 5pt 0; }
+  .resume-content ul { margin: 6pt 0; padding-left: 16pt; }
+  .resume-content li { margin: 3pt 0; padding-left: 0; }
+  .resume-content li p { margin: 0; }
+  h1, h2, h3 { break-after: avoid; }
+  li { break-inside: avoid; }
+  p { orphans: 3; widows: 3; }
+  a { color: #111 !important; text-decoration: none !important; }
+}
