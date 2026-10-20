@@ -1,6 +1,13 @@
 <article class="profile-home">
   <header class="profile-intro">
-    <p class="eyebrow">Production reliability · Automation · Distributed systems</p>
+    {{ with resources.Get .Site.Params.Author.image }}
+      {{ $portrait := .Resize "640x webp q85" }}
+      <img class="profile-portrait nozoom" src="{{ $portrait.RelPermalink }}"
+        alt="Illustrated portrait of Tomasz Dubiel in a cap and sunglasses"
+        width="{{ $portrait.Width }}" height="{{ $portrait.Height }}" fetchpriority="high">
+    {{ end }}
+    <div class="profile-intro-copy">
+    <p class="eyebrow">I do it four the nines.</p>
     <h1>Tomasz Dubiel</h1>
     <p class="profile-role">Site Reliability Engineer at Shopify</p>
     <div class="profile-description">{{ .Content }}</div>
@@ -10,11 +17,12 @@
       <a href="https://www.linkedin.com/in/tmpdubz/">LinkedIn</a>
       <a href="mailto:{{ .Site.Params.Author.email }}">Email me</a>
     </div>
+    </div>
   </header>
   <section class="selected-work" aria-labelledby="selected-work-title">
     <div class="section-intro">
       <p class="eyebrow">Selected work at Shopify</p>
-      <h2 id="selected-work-title">From recurring incidents to lasting fixes.</h2>
+      <h2 id="selected-work-title">A couple of things I’ve built.</h2>
       <p>Two systems I built after analysing patterns across months of production incidents.</p>
     </div>
     <div class="work-grid">
@@ -31,10 +39,5 @@
         <p>Responders get time to identify the offending workloads and address the problem.</p>
       </article>
     </div>
-  </section>
-  <section class="outside-work" aria-labelledby="outside-work-title">
-    <h2 id="outside-work-title">Outside production</h2>
-    <p>I build agentic workflows to write software and explore how AI can automate my homelab—and whatever else catches my attention.</p>
-    <a href="https://github.com/tmpdubz">Find me on GitHub <span aria-hidden="true">↗</span></a>
   </section>
 </article>
