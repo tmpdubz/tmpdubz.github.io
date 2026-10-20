@@ -16,7 +16,7 @@ In Enterprise SRE, support Shopify’s largest and highest-volume merchants thro
 
 - Built automation that manages database capacity across Shopify’s entire storefront fleet, scaling up for flash sales and back down afterward.
 - Built an adaptive rate limiter for Shopify’s Admin GraphQL API that slows API traffic during database overload, protecting checkouts and storefronts while engineers investigate.
-- Led the response to a complex flash-sale incident, separating overlapping failures and coordinating fixes across multiple teams.
+- Analyzed months of incident data to identify recurring failure patterns and prioritize reliability improvements.
 
 Previously worked in Data Reliability Engineering, bringing SRE practices to Shopify’s data platform.
 
