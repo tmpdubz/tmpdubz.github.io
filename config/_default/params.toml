@@ -1,5 +1,6 @@
 defaultAppearance = "dark"
 colorScheme = "ocean"
+logo = "tmpdubz_nobg.png"
 enableSearch = false
 description = "Tomasz Dubiel — Site Reliability Engineer at Shopify. Production reliability, automation, and distributed systems."
 
