@@ -24,6 +24,7 @@ jobs:
 
       - name: Build site with nix develop
         run: |
+          python3 scripts/export-cv.py
           nix develop --command hugo --minify
 
       - name: Deploy to GitHub Pages

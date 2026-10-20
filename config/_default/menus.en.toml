@@ -1,16 +1,19 @@
 [[main]]
-name = "GitHub"
-pre = "github"
-url = "https://github.com/tmpdubz"
-identifier = "F91SK2wmQ2"
-weight = 9_999
+name = "Resume"
+pageRef = "resume"
+weight = 10
 
 [[main]]
-name = "Resume"
-pre = "fire"
-pageRef = "resume/index"
-identifier = "V58BVNhfxD"
-weight = 9_999
+name = "GitHub"
+url = "https://github.com/tmpdubz"
+weight = 20
 
-[[footer]]
-none = "none"
+[[main]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/tmpdubz/"
+weight = 30
+
+[[main]]
+name = "Email"
+url = "mailto:t.m.dubiel@gmail.com"
+weight = 40

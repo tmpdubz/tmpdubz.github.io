@@ -29,3 +29,20 @@ npm run help → Show all available blowfish-tools commands
 ```
 git submodule update --init --recursive
 ```
+## Resume and PDF
+
+Edit `content/resume/index.md` for both the website and downloadable CV.
+
+```sh
+npm run build   # Regenerate the PDF, then build Hugo
+npm run pdf     # Regenerate static/Tomasz-Dubiel-CV.pdf only
+```
+
+The PDF exporter uses Python 3 with no third-party dependencies. Deployment regenerates
+the PDF before building the site. Commit the updated PDF with resume changes so the
+download is also available when running `npm run dev`. The resume page includes a
+print action with a light layout for browser printing or saving as PDF.
+
+Homepage content and selected work live in `content/_index.md` and
+`layouts/partials/home/custom.html`. Local theme customizations live in `layouts/`
+and `assets/css/custom.css`; the Blowfish submodule is unchanged.
