@@ -3,7 +3,9 @@
 html:not(.dark) { --profile-accent: #0369a1; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--profile-accent); outline-offset: 5px; border-radius: 3px; }
 .profile-home { padding: 4rem 0 1rem; }
-.profile-intro { max-width: 48rem; }
+.profile-intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(12rem, 19rem); align-items: center; gap: 2.5rem; }
+.profile-intro-copy { grid-column: 1; grid-row: 1; min-width: 0; }
+.profile-portrait { grid-column: 2; grid-row: 1; width: 100%; height: auto; border-radius: 50%; box-shadow: 0 0 0 6px rgb(128 128 128 / .12); }
 .eyebrow { font-size: .75rem; font-weight: 650; letter-spacing: .11em; text-transform: uppercase; color: var(--profile-accent); }
 .profile-intro h1 { font-size: clamp(2.6rem, 6vw, 4.5rem); line-height: 1.08; letter-spacing: -.045em; font-weight: 800; margin: 1.1rem 0; }
 .profile-role { font-size: clamp(1.2rem, 3vw, 1.6rem); line-height: 1.5; font-weight: 550; }
@@ -40,6 +42,9 @@ html:not(.dark) .primary-link { color: white; }
 .print-only { display: none; }
 @media (max-width: 640px) {
   .profile-home { padding-top: 2.5rem; }
+  .profile-intro { display: flex; flex-direction: column; align-items: flex-start; gap: 1.8rem; }
+  .profile-portrait { width: 11rem; }
+  .profile-intro h1 { margin-top: 0; }
   .selected-work { margin-top: 3rem; }
   .work-grid { grid-template-columns: 1fr; }
   .profile-actions { gap: 1rem; font-size: .95rem; }
