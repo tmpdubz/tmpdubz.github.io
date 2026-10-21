@@ -22,10 +22,10 @@ jobs:
           extra_nix_config: |
             experimental-features = nix-command flakes
 
-      - name: Build site with nix develop
+      - name: Build site with pinned Hugo
         run: |
           python3 scripts/export-cv.py
-          nix develop --command hugo --minify
+          nix run .#hugo -- --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

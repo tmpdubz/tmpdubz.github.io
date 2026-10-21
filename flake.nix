@@ -13,6 +13,9 @@
           inherit system;
         };
       in {
+        # CI needs only the pinned Hugo executable, not the full dev toolchain.
+        packages.hugo = pkgs.hugo;
+
         devShells.default = pkgs.mkShell {
           packages = [
             pkgs.hugo
