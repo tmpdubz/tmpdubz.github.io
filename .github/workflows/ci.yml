@@ -28,6 +28,6 @@ jobs:
           python3 scripts/export-cv.py
           git diff --exit-code -- static/Tomasz-Dubiel-CV.pdf
 
-      - name: Use Nix Flake devShell
+      - name: Build site with pinned Hugo
         run: |
-          nix develop --command hugo --minify
+          nix run .#hugo -- --minify
