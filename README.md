@@ -43,6 +43,6 @@ the PDF before building the site. Commit the updated PDF with resume changes so 
 download is also available when running `npm run dev`. The resume page includes a
 print action with a light layout for browser printing or saving as PDF.
 
-Homepage content and selected work live in `content/_index.md` and
+Homepage content and layout live in `content/_index.md` and
 `layouts/partials/home/custom.html`. Local theme customizations live in `layouts/`
 and `assets/css/custom.css`; the Blowfish submodule is unchanged.
