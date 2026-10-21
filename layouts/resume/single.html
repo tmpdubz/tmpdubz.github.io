@@ -1,21 +1,26 @@
 {{ define "main" }}
 <article class="resume-page">
+  {{ $sections := split .RawContent "\n## " }}
   <header class="resume-header">
-    <p class="eyebrow screen-only">Experience &amp; background</p>
+    <div class="resume-identity">
     <h1>{{ .Site.Params.Author.name }}</h1>
+    <p class="resume-role">Site Reliability Engineer</p>
     <nav class="resume-contact" aria-label="Contact information">
       <a href="mailto:{{ .Site.Params.Author.email }}">{{ .Site.Params.Author.email }}</a>
       <a href="https://tdubiel.dev">tdubiel.dev</a>
       <a href="https://github.com/tmpdubz">github.com/tmpdubz</a>
       <a href="https://www.linkedin.com/in/tmpdubz/">linkedin.com/in/tmpdubz</a>
     </nav>
-    <p class="resume-role">Site Reliability Engineer</p>
+    </div>
+    <div class="resume-summary">{{ .RenderString (dict "display" "block") (index $sections 0) }}</div>
     <div class="resume-actions screen-only">
       <a class="primary-link" href="{{ "Tomasz-Dubiel-CV.pdf" | relURL }}" download>Download CV <span class="file-type">PDF</span></a>
       <button type="button" id="print-resume">Print / save as PDF</button>
     </div>
   </header>
-  <div class="resume-content prose dark:prose-invert">{{ .Content }}</div>
+  {{ $body := printf "## %s" (delimit (after 1 $sections) "\n## ") }}
+  {{ $rendered := .RenderString (dict "display" "block") $body }}
+  <div class="resume-content prose dark:prose-invert">{{ $rendered | replaceRE `<p><strong>Technologies:</strong>` `<p class="resume-technologies"><strong>Technologies:</strong>` | safeHTML }}</div>
 </article>
 {{ $script := resources.Get "js/resume.js" | minify | fingerprint }}
 <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
