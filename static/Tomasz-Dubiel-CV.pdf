@@ -4,7 +4,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Count 2 /Kids [6 0 R 8 0 R] >>
+<< /Type /Pages /Count 2 /Kids [7 0 R 9 0 R] >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
@@ -13,109 +13,117 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 5 0 obj
-<< /Length 3966 >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 4301 >>
 stream
 BT /F2 24 Tf 1 0 0 1 52 744.00 Tm (Tomasz Dubiel) Tj ET
-BT /F1 12 Tf 1 0 0 1 52 711.00 Tm (Site Reliability Engineer) Tj ET
-BT /F1 9 Tf 1 0 0 1 52 689.00 Tm (t.m.dubiel@gmail.com  |  tdubiel.dev) Tj ET
-BT /F1 9 Tf 1 0 0 1 52 674.75 Tm (github.com/tmpdubz  |  linkedin.com/in/tmpdubz) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 650.50 Tm (Site Reliability Engineer at Shopify with a background in Kubernetes, observability, and) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 638.00 Tm (production data systems. Build automation, lead incident responses, and turn recurring production) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 625.50 Tm (problems into lasting fixes.) Tj ET
-BT /F2 13 Tf 1 0 0 1 52 599.00 Tm (Experience) Tj ET
-BT /F2 11 Tf 1 0 0 1 52 570.75 Tm (Shopify — Site Reliability Engineer) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 553.00 Tm (November 2021 – Present) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 533.50 Tm (In Enterprise SRE, support Shopify’s largest and highest-volume merchants through incident) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 521.00 Tm (response and command, in-depth production investigations, and capacity planning for flash sales.) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 501.50 Tm (Turned patterns from months of production incidents into two reliability improvements:) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 482.00 Tm (• Built automation that manages database capacity across Shopify’s entire storefront fleet,) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 469.50 Tm (scaling up for flash sales and back down afterward.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 454.00 Tm (• Built an adaptive rate limiter for Shopify’s Admin GraphQL API that slows API traffic during) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 441.50 Tm (database overload, protecting checkouts and storefronts while engineers investigate.) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 426.00 Tm (Previously worked in Data Reliability Engineering, bringing SRE practices to Shopify’s data) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 413.50 Tm (platform.) Tj ET
-BT /F1 9 Tf 1 0 0 1 52 394.00 Tm (Technologies: Ruby, MySQL, Google Kubernetes Engine \(GKE\)) Tj ET
-BT /F2 11 Tf 1 0 0 1 52 369.75 Tm (Foko Retail — DevOps Engineer) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 352.00 Tm (November 2020 – November 2021 · Acquired by Workforce Software) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 332.50 Tm (• Introduced distributed tracing with OpenTelemetry, reducing production issue diagnosis from) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 320.00 Tm (hours to minutes.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 304.50 Tm (• Automated capacity scaling during an AWS-to-GCP migration, replacing manual adjustments with) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 292.00 Tm (data-driven policies.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 276.50 Tm (• Built an analytics pipeline that let Customer Success generate reports without engineering) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 264.00 Tm (support.) Tj ET
-BT /F1 9 Tf 1 0 0 1 52 248.50 Tm (Technologies: GCP \(GKE, BigQuery, Memorystore\), Kubernetes, OpenTelemetry, Argo CD, Argo Workflows, Flux) Tj ET
-BT /F2 11 Tf 1 0 0 1 52 224.25 Tm (Micro Focus — Tech Lead, Kubernetes) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 206.50 Tm (February 2019 – October 2020) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 187.00 Tm (• Designed Kubernetes deployments for Interset’s data infrastructure.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 171.50 Tm (• Led the team delivering the first integration of Interset’s analytics engine with HPE) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 159.00 Tm (ArcSight.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 143.50 Tm (• Developed data integrity tests that uncovered critical reliability issues and helped resolve) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 131.00 Tm (them.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 115.50 Tm (• Delivered technical training on Spark and Vertica on Kubernetes, and explained ML applications) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 103.00 Tm (to cross-functional teams.) Tj ET
-BT /F1 9 Tf 1 0 0 1 52 87.50 Tm (Technologies: Kubernetes, Docker, AWS, Kafka, Vertica, ArcSight CDF, SaltStack) Tj ET
+BT /F1 8 Tf 1 0 0 1 52 712.20 Tm (t.m.dubiel@gmail.com | tdubiel.dev | github.com/tmpdubz | linkedin.com/in/tmpdubz) Tj ET
+BT /F2 12 Tf 1 0 0 1 52 693.60 Tm (Site Reliability Engineer) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 670.20 Tm (Site Reliability Engineer with a background in Kubernetes, observability, and distributed data systems,) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 658.20 Tm (including production machine learning. I like getting to the bottom of difficult production problems and) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 646.20 Tm (making systems easier for people to run.) Tj ET
+BT /F2 13 Tf 1 0 0 1 52 621.20 Tm (Experience) Tj ET
+q 0.8 G 0.5 w 52 603.60 m 560 603.60 l S Q
+BT /F2 11 Tf 1 0 0 1 52 587.60 Tm (Shopify — Enterprise Site Reliability Engineer) Tj ET
+BT /F3 10 Tf 1 0 0 1 52 570.40 Tm (Commerce platform that helps merchants run their businesses and sell online and in person.) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 554.40 Tm (February 2023 – Present · Data Reliability Engineer: November 2021 – February 2023) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 533.40 Tm (Support Shopify’s largest merchants through incident command, production investigations, and flash-sale) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 521.40 Tm (capacity planning. Work with engineering teams to address recurring production problems, drawing on) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 509.40 Tm (earlier experience in Shopify’s Data Reliability Engineering team.) Tj ET
+BT /F2 10 Tf 1 0 0 1 52 491.40 Tm (Technologies: Ruby, MySQL, Google Kubernetes Engine \(GKE\)) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 473.40 Tm (Used patterns from months of production incidents to guide two improvements:) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 455.40 Tm (• Automated database capacity management across the storefront fleet to handle flash-sale demand and) Tj ET
+BT /F1 10 Tf 1 0 0 1 67 443.40 Tm (release excess capacity afterward.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 425.40 Tm (• Developed adaptive rate limiting for the Admin GraphQL API to protect checkout and storefront) Tj ET
+BT /F1 10 Tf 1 0 0 1 67 413.40 Tm (availability during database overload.) Tj ET
+q 0.8 G 0.5 w 52 399.40 m 560 399.40 l S Q
+BT /F2 11 Tf 1 0 0 1 52 383.40 Tm (Foko Retail — DevOps Engineer) Tj ET
+BT /F3 10 Tf 1 0 0 1 52 366.20 Tm (Retail operations software that helps store teams coordinate work.) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 350.20 Tm (November 2020 – November 2021 · Acquired by Workforce Software) Tj ET
+BT /F2 10 Tf 1 0 0 1 52 329.20 Tm (Technologies: GCP, AWS, Kubernetes, Terraform, OpenTelemetry, Argo CD, BigQuery) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 311.20 Tm (• Introduced distributed tracing with OpenTelemetry, reducing production issue diagnosis from hours to) Tj ET
+BT /F1 10 Tf 1 0 0 1 67 299.20 Tm (minutes.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 281.20 Tm (• Automated capacity scaling during an AWS-to-GCP migration, replacing manual adjustments with) Tj ET
+BT /F1 10 Tf 1 0 0 1 67 269.20 Tm (data-driven policies.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 251.20 Tm (• Built an analytics pipeline that let Customer Success generate reports without engineering support.) Tj ET
+q 0.8 G 0.5 w 52 237.20 m 560 237.20 l S Q
+BT /F2 11 Tf 1 0 0 1 52 221.20 Tm (Micro Focus — Data Engineer) Tj ET
+BT /F3 10 Tf 1 0 0 1 52 204.00 Tm (Enterprise software company that acquired Interset, a machine-learning security analytics platform.) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 188.00 Tm (August 2017 – October 2020 · Combined tenure at Interset and Micro Focus) Tj ET
+BT /F2 10 Tf 1 0 0 1 52 167.00 Tm (Technologies: Kubernetes, Docker, AWS, Kafka, Vertica, ArcSight CDF, SaltStack) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 149.00 Tm (• Designed Kubernetes deployments for Interset’s data infrastructure.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 131.00 Tm (• Led the team delivering the first integration of Interset’s analytics engine with HPE ArcSight.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 113.00 Tm (• Developed data integrity tests that uncovered critical reliability issues and helped resolve them.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 95.00 Tm (• Delivered technical training on Spark and Vertica on Kubernetes, and explained ML applications to) Tj ET
+BT /F1 10 Tf 1 0 0 1 67 83.00 Tm (cross-functional teams.) Tj ET
 BT /F1 8 Tf 1 0 0 1 52 26.00 Tm (tdubiel.dev) Tj ET
 BT /F1 8 Tf 1 0 0 1 510 26.00 Tm (1) Tj ET
 endstream
 endobj
-6 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
-endobj
 7 0 obj
-<< /Length 2791 >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 3079 >>
 stream
+q 0.8 G 0.5 w 52 760.00 m 560 760.00 l S Q
 BT /F2 11 Tf 1 0 0 1 52 744.00 Tm (Interset — Data Engineer) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 726.25 Tm (August 2017 – February 2019 · Acquired by Micro Focus) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 706.75 Tm (• Productionized machine learning models in Scala and Apache Spark in collaboration with data) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 694.25 Tm (scientists.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 678.75 Tm (• Investigated production performance problems in Spark and HBase, identifying configuration) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 666.25 Tm (issues.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 650.75 Tm (• Optimized SQL queries, reducing run times by up to 60%.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 635.25 Tm (• Built Vertica integrations and worked with customer-facing teams on critical escalations.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 619.75 Tm (• Mentored co-op students through project planning and delivery, and led workshops on) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 607.25 Tm (development tools.) Tj ET
-BT /F1 9 Tf 1 0 0 1 52 591.75 Tm (Technologies: Scala, Java, Spark, HBase, Kafka, Vertica, Elasticsearch, Docker, Jenkins) Tj ET
-BT /F2 11 Tf 1 0 0 1 52 567.50 Tm (Rizn.IO — Co-Founder) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 549.75 Tm (April 2016 – August 2017) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 530.25 Tm (• Built a platform for evaluating outcomes using probabilistic reasoning and expert input.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 514.75 Tm (• Developed the backend in Python and Django and the frontend in Angular and TypeScript.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 499.25 Tm (• Delivered product demonstrations and answered technical questions from prospective customers) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 486.75 Tm (and investors.) Tj ET
-BT /F1 9 Tf 1 0 0 1 52 471.25 Tm (Technologies: Python, Django REST Framework, Angular, TypeScript, Celery, RabbitMQ, PostgreSQL) Tj ET
-BT /F2 11 Tf 1 0 0 1 52 447.00 Tm (MicroMetrics — Data Science Intern) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 429.25 Tm (March 2015 – October 2015) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 409.75 Tm (• Analyzed survey data and developed algorithms to detect abuse and protect data quality.) Tj ET
-BT /F1 10 Tf 1 0 0 1 60 394.25 Tm (• Used sentiment analysis to identify customer experience insights.) Tj ET
-BT /F1 9 Tf 1 0 0 1 52 378.75 Tm (Technologies: Python) Tj ET
-BT /F2 13 Tf 1 0 0 1 52 353.50 Tm (Education) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 331.25 Tm (Bachelor of Mathematics, Carleton University — 2014) Tj ET
-BT /F2 13 Tf 1 0 0 1 52 304.75 Tm (Outside Engineering) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 282.50 Tm (The Moonroom — Barback · June 2014 – July 2017) Tj ET
-BT /F1 10 Tf 1 0 0 1 52 263.00 Tm (Built the bar’s ice program, repurposing freezers and water pumps to make a block ice machine.) Tj ET
+BT /F3 10 Tf 1 0 0 1 52 726.80 Tm (Security analytics software that uses machine learning to identify unusual activity.) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 710.80 Tm (August 2017 – February 2019 · Acquired by Micro Focus) Tj ET
+BT /F2 10 Tf 1 0 0 1 52 689.80 Tm (Technologies: Scala, Java, Spark, HBase, Kafka, Vertica, Elasticsearch, Docker, Jenkins) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 671.80 Tm (• Productionized machine learning models in Scala and Apache Spark in collaboration with data) Tj ET
+BT /F1 10 Tf 1 0 0 1 67 659.80 Tm (scientists.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 641.80 Tm (• Investigated production performance problems in Spark and HBase, identifying configuration issues.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 623.80 Tm (• Optimized SQL queries, reducing run times by up to 60%.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 605.80 Tm (• Built Vertica integrations and worked with customer-facing teams on critical escalations.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 587.80 Tm (• Mentored co-op students through project planning and delivery, and led workshops on development tools.) Tj ET
+q 0.8 G 0.5 w 52 573.80 m 560 573.80 l S Q
+BT /F2 11 Tf 1 0 0 1 52 557.80 Tm (Rizn.IO — Co-Founder) Tj ET
+BT /F3 10 Tf 1 0 0 1 52 540.60 Tm (Startup developing decision-support software using probabilistic reasoning and expert input.) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 524.60 Tm (April 2016 – August 2017) Tj ET
+BT /F2 10 Tf 1 0 0 1 52 503.60 Tm (Technologies: Python, Django REST Framework, Angular, TypeScript, Celery, RabbitMQ, PostgreSQL) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 485.60 Tm (• Developed the backend in Python and Django and the frontend in Angular and TypeScript.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 467.60 Tm (• Delivered product demonstrations and answered technical questions from prospective customers and) Tj ET
+BT /F1 10 Tf 1 0 0 1 67 455.60 Tm (investors.) Tj ET
+q 0.8 G 0.5 w 52 441.60 m 560 441.60 l S Q
+BT /F2 11 Tf 1 0 0 1 52 425.60 Tm (MicroMetrics — Data Science Intern) Tj ET
+BT /F3 10 Tf 1 0 0 1 52 408.40 Tm (Customer experience analytics software built around survey feedback.) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 392.40 Tm (March 2015 – October 2015) Tj ET
+BT /F2 10 Tf 1 0 0 1 52 371.40 Tm (Technologies: Python) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 353.40 Tm (• Analyzed survey data and developed algorithms to detect abuse and protect data quality.) Tj ET
+BT /F1 10 Tf 1 0 0 1 60 335.40 Tm (• Used sentiment analysis to identify customer experience insights.) Tj ET
+BT /F2 13 Tf 1 0 0 1 52 310.40 Tm (Education) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 288.80 Tm (Bachelor of Mathematics, Carleton University — 2014) Tj ET
+BT /F2 13 Tf 1 0 0 1 52 263.80 Tm (Outside Engineering) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 242.20 Tm (The Moonroom — Barback · June 2014 – July 2017) Tj ET
+BT /F1 10 Tf 1 0 0 1 52 224.20 Tm (Built the bar’s ice program, repurposing freezers and water pumps to make a block ice machine.) Tj ET
 BT /F1 8 Tf 1 0 0 1 52 26.00 Tm (tdubiel.dev) Tj ET
 BT /F1 8 Tf 1 0 0 1 510 26.00 Tm (2) Tj ET
 endstream
 endobj
-8 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
-endobj
 9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
 << /Title (Tomasz Dubiel - CV) /Author (Tomasz Dubiel) >>
 endobj
 xref
-0 10
+0 11
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
 0000000127 00000 n 
 0000000224 00000 n 
 0000000326 00000 n 
-0000004344 00000 n 
-0000004480 00000 n 
-0000007323 00000 n 
-0000007459 00000 n 
+0000000431 00000 n 
+0000004784 00000 n 
+0000004930 00000 n 
+0000008061 00000 n 
+0000008207 00000 n 
 trailer
-<< /Size 10 /Root 1 0 R /Info 9 0 R >>
+<< /Size 11 /Root 1 0 R /Info 10 0 R >>
 startxref
-7532
+8281
 %%EOF

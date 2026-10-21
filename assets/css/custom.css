@@ -37,8 +37,11 @@ html:not(.dark) .primary-link { color: white; }
 .file-type { font-size: .7rem; font-weight: 500; }
 .resume-content { margin-top: 2rem; max-width: none; }
 .resume-content h2 { margin-top: 2.4rem; }
-.resume-content h3 { margin-top: 1.9rem; margin-bottom: .4rem; }
-.resume-content h3 + p { margin-top: 0; font-size: .9rem; opacity: .8; }
+.resume-content h3 { margin-top: 2.2rem; margin-bottom: .4rem; padding-top: 1.2rem; border-top: 1px solid rgb(128 128 128 / .2); }
+.resume-content h3 + p { margin-top: 0; margin-bottom: .35rem; }
+.resume-content h3 + p + p { margin-top: 0; opacity: .8; }
+.resume-content p:has(> strong:only-child) { font-size: 1em; }
+.resume-content li { margin-top: .6rem; margin-bottom: .6rem; }
 .print-only { display: none; }
 @media (max-width: 640px) {
   .profile-home { padding-top: 2.5rem; }
@@ -64,8 +67,9 @@ html:not(.dark) .primary-link { color: white; }
   .resume-content { margin-top: 12pt; font-size: 10pt; line-height: 1.4; }
   .resume-content, .resume-content * { color: #111 !important; background: transparent !important; opacity: 1 !important; }
   .resume-content h2 { font-size: 13pt; margin: 15pt 0 6pt; }
-  .resume-content h3 { font-size: 11pt; margin: 12pt 0 3pt; }
-  .resume-content h3 + p { font-size: 9pt; margin-top: 0; break-after: avoid; }
+  .resume-content h3 { font-size: 11pt; margin: 14pt 0 3pt; padding-top: 7pt; }
+  .resume-content h3 + p { font-size: 10pt; margin-top: 0; break-after: avoid; }
+  .resume-content h3 + p + p { break-after: avoid; }
   .resume-content p { margin: 5pt 0; }
   .resume-content ul { margin: 6pt 0; padding-left: 16pt; }
   .resume-content li { margin: 3pt 0; padding-left: 0; }

@@ -27,15 +27,17 @@ class CV:
             self.pages.append([])
             self.y = 744
 
-    def text(self, text, size=10, bold=False, indent=0, space=5, reserve=0):
+    def text(self, text, size=10, bold=False, italic=False, indent=0, space=5, reserve=0):
         # Conservative wrapping also leaves room for wide glyphs in Helvetica.
-        width = int((508 - indent) / (size * .52))
+        width = int((508 - indent) / (size * .48))
         lines = textwrap.wrap(text, width=width, break_long_words=False, break_on_hyphens=False) or ['']
-        leading = size * 1.25
+        leading = size * 1.2
         self.reserve(len(lines) * leading + reserve + space)
         for line in lines:
             self.reserve(leading)
-            self.pages[-1].append((52 + indent, self.y, size, bold, line))
+            # Continuation lines align with the bullet text rather than its marker.
+            hanging = 7 if text.startswith('\u2022 ') and line != lines[0] else 0
+            self.pages[-1].append((52 + indent + hanging, self.y, size, 3 if italic else 2 if bold else 1, line))
             self.y -= leading
         self.y -= space
 
@@ -44,19 +46,22 @@ class CV:
         objects.extend([
             b'<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>',
             b'<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>',
+            b'<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>',
         ])
         page_ids = []
         for number, lines in enumerate(self.pages, 1):
-            lines = lines + [(52, 26, 8, False, 'tdubiel.dev'), (510, 26, 8, False, str(number))]
+            lines = lines + [(52, 26, 8, 1, 'tdubiel.dev'), (510, 26, 8, 1, str(number))]
             content = b'\n'.join(
-                f'BT /F{2 if bold else 1} {size} Tf 1 0 0 1 {x} {y:.2f} Tm '.encode()
-                + pdf_string(text) + b' Tj ET' for x, y, size, bold, text in lines)
+                (f'q 0.8 G 0.5 w 52 {y + 16:.2f} m 560 {y + 16:.2f} l S Q\n'.encode()
+                 if size == 11 and font == 2 else b'')
+                + f'BT /F{font} {size} Tf 1 0 0 1 {x} {y:.2f} Tm '.encode()
+                + pdf_string(text) + b' Tj ET' for x, y, size, font, text in lines)
             stream_id = len(objects) + 1
             objects.append(b'<< /Length ' + str(len(content)).encode() + b' >>\nstream\n' + content + b'\nendstream')
             page_id = len(objects) + 1
             page_ids.append(page_id)
             objects.append((f'<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] '
-                            f'/Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> '
+                            f'/Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> '
                             f'/Contents {stream_id} 0 R >>').encode())
         objects[0] = b'<< /Type /Catalog /Pages 2 0 R >>'
         objects[1] = ('<< /Type /Pages /Count ' + str(len(page_ids)) + ' /Kids ['
@@ -88,21 +93,24 @@ def main():
     email = re.search(r'^email = "([^"]+)"', language, re.M).group(1)
     cv = CV()
     cv.text(name, size=24, bold=True, space=3)
-    cv.text('Site Reliability Engineer', size=12, space=7)
-    cv.text(email + '  |  tdubiel.dev', size=9, space=3)
-    cv.text('github.com/tmpdubz  |  linkedin.com/in/tmpdubz', size=9, space=13)
+    cv.text(email + ' | tdubiel.dev | github.com/tmpdubz | linkedin.com/in/tmpdubz', size=8, space=9)
+    cv.text('Site Reliability Engineer', size=12, bold=True, space=9)
     for block in re.split(r'\n\s*\n', content.strip()):
         if block.startswith('### '):
-            cv.y -= 6
-            cv.text(clean(block[4:]), size=11, bold=True, space=4, reserve=45)
+            cv.y -= 12
+            cv.text(clean(block[4:]), size=11, bold=True, space=4, reserve=150)
         elif block.startswith('## '):
             cv.y -= 7
             cv.text(clean(block[3:]), size=13, bold=True, space=6, reserve=40)
         elif block.startswith('- '):
             for item in block.split('\n'):
-                cv.text('\u2022 ' + clean(item[2:]), indent=8, space=3)
+                cv.text('\u2022 ' + clean(item[2:]), indent=8, space=6)
+        elif block.startswith('*') and not block.startswith('**') and block.endswith('*'):
+            cv.text(block[1:-1], italic=True, space=4, reserve=30)
+        elif re.match(r'^[A-Z][a-z]+ \d{4} [–-] ', block):
+            cv.text(block, size=10, space=9, reserve=30)
         else:
-            cv.text(clean(' '.join(block.splitlines())), size=9 if block.startswith('**Technologies:') else 10, space=7)
+            cv.text(clean(' '.join(block.splitlines())), bold=block.startswith('**Technologies:'), space=6)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_bytes(cv.bytes(name))
     print(f'Exported {args.output} ({len(cv.pages)} pages)')
