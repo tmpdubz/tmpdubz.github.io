@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tomasz Dubiel</title><link>https://tdubiel.dev/</link><description>Recent content on Tomasz Dubiel</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>t.m.dubiel@gmail.com (Tomasz Dubiel)</managingEditor><webMaster>t.m.dubiel@gmail.com (Tomasz Dubiel)</webMaster><copyright>© 2026 Tomasz Dubiel</copyright><lastBuildDate>Wed, 08 Jul 2020 17:34:08 -0400</lastBuildDate><atom:link href="https://tdubiel.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Resume</title><link>https://tdubiel.dev/resume/</link><pubDate>Wed, 08 Jul 2020 17:34:08 -0400</pubDate><author>t.m.dubiel@gmail.com (Tomasz Dubiel)</author><guid>https://tdubiel.dev/resume/</guid><description>&lt;p>Site Reliability Engineer at Shopify with a background in Kubernetes, observability, and production data systems. Build automation, lead incident responses, and turn recurring production problems into lasting fixes.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tomasz Dubiel</title><link>https://tdubiel.dev/</link><description>Recent content on Tomasz Dubiel</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>t.m.dubiel@gmail.com (Tomasz Dubiel)</managingEditor><webMaster>t.m.dubiel@gmail.com (Tomasz Dubiel)</webMaster><copyright>© 2026 Tomasz Dubiel</copyright><lastBuildDate>Wed, 08 Jul 2020 17:34:08 -0400</lastBuildDate><atom:link href="https://tdubiel.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Resume</title><link>https://tdubiel.dev/resume/</link><pubDate>Wed, 08 Jul 2020 17:34:08 -0400</pubDate><author>t.m.dubiel@gmail.com (Tomasz Dubiel)</author><guid>https://tdubiel.dev/resume/</guid><description>&lt;p>Site Reliability Engineer with a background in Kubernetes, observability, and distributed data systems, including production machine learning. I like getting to the bottom of difficult production problems and making systems easier for people to run.&lt;/p>
 &lt;h2 class="relative group">Experience
 &lt;div id="experience" class="anchor">&lt;/div>
 &lt;span
@@ -6,12 +6,11 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#experience" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h2>
-&lt;h3 class="relative group">Shopify — Site Reliability Engineer
-&lt;div id="shopify--site-reliability-engineer" class="anchor">&lt;/div>
+&lt;h3 class="relative group">Shopify — Enterprise Site Reliability Engineer
+&lt;div id="shopify--enterprise-site-reliability-engineer" class="anchor">&lt;/div>
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#shopify--site-reliability-engineer" aria-label="Anchor">#&lt;/a>
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#shopify--enterprise-site-reliability-engineer" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h3>
-&lt;p>November 2021 – Present&lt;/p>
-&lt;p>In Enterprise SRE, support Shopify’s largest and highest-volume merchants through incident response and command, in-depth production investigations, and capacity planning for flash sales.&lt;/p></description></item></channel></rss>
+&lt;p>&lt;em>Commerce platform that helps merchants run their businesses and sell online and in person.&lt;/em>&lt;/p></description></item></channel></rss>
