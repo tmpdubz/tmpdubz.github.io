@@ -22,9 +22,9 @@ html:not(.dark) .primary-link { color: white; }
 .outside-work p { margin-bottom: 1rem; opacity: .8; }
 .resume-page { --resume-accent: #1c4587; max-width: 55rem; margin: 3rem auto; font-family: "Open Sans CV", sans-serif; }
 html.dark .resume-page { --resume-accent: #9cbbef; }
-.resume-header { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 2.5rem; }
+.resume-header { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
 .resume-identity { min-width: 0; }
-.resume-summary { line-height: 1.45; opacity: .85; padding-top: .3rem; }
+.resume-summary { line-height: 1.45; opacity: .85; }
 .resume-header .resume-actions { grid-column: 1 / -1; margin-top: 0; }
 .resume-header h1 { font-size: clamp(2.2rem, 5vw, 3rem); line-height: 1.2; font-weight: 750; letter-spacing: -.035em; margin-top: 0; }
 .resume-role { margin-top: .4rem; font-size: 1.3rem; font-weight: 700; color: var(--resume-accent); }
