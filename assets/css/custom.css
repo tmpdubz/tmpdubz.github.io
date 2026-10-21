@@ -14,15 +14,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--profile-accent)
 .profile-actions > a:not(.primary-link), .outside-work a, .resume-contact a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .25em; }
 .primary-link { display: inline-flex; align-items: center; gap: .65rem; background: var(--profile-accent); color: #082f49; font-weight: 650; padding: .65rem 1rem; border-radius: .4rem; text-decoration: none; }
 html:not(.dark) .primary-link { color: white; }
-.selected-work { margin-top: 5rem; padding-top: 2.5rem; border-top: 1px solid rgb(128 128 128 / .25); }
-.section-intro { max-width: 40rem; }
-.section-intro h2 { margin: .6rem 0 1rem; font-size: clamp(1.6rem, 4vw, 2.1rem); line-height: 1.25; font-weight: 700; letter-spacing: -.025em; }
-.section-intro > p:last-child { opacity: .8; }
-.work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-top: 2rem; }
-.work-card { padding: 1.5rem; border: 1px solid rgb(128 128 128 / .3); border-radius: .6rem; }
-.work-context { font-size: .75rem; color: var(--profile-accent); }
-.work-card h3 { font-size: 1.3rem; font-weight: 650; line-height: 1.4; margin: .8rem 0 1rem; }
-.work-card > p:not(.work-context) { font-size: 1rem; line-height: 1.7; margin-top: .9rem; opacity: .85; }
 .outside-work { max-width: 41rem; margin: 3.5rem 0 1rem; }
 .outside-work h2 { font-size: 1.35rem; font-weight: 650; margin-bottom: .8rem; }
 .outside-work p { margin-bottom: 1rem; opacity: .8; }
@@ -48,8 +39,6 @@ html:not(.dark) .primary-link { color: white; }
   .profile-intro { display: flex; flex-direction: column; align-items: flex-start; gap: 1.8rem; }
   .profile-portrait { width: 11rem; }
   .profile-intro h1 { margin-top: 0; }
-  .selected-work { margin-top: 3rem; }
-  .work-grid { grid-template-columns: 1fr; }
   .profile-actions { gap: 1rem; font-size: .95rem; }
   .resume-page { margin-top: 2rem; }
 }

@@ -12,31 +12,10 @@
     <p class="profile-role">Site Reliability Engineer at Shopify</p>
     <div class="profile-description">{{ .Content }}</div>
     <div class="profile-actions" aria-label="Profile links">
-      <a class="primary-link" href="{{ "resume/" | relURL }}">View resume <span aria-hidden="true">↗</span></a>
+      <a class="primary-link" href="{{ "resume/" | relURL }}">View CV <span aria-hidden="true">↗</span></a>
       <a href="https://www.linkedin.com/in/tmpdubz/">LinkedIn</a>
       <a href="mailto:{{ .Site.Params.Author.email }}">Email me</a>
     </div>
     </div>
   </header>
-  <section class="selected-work" aria-labelledby="selected-work-title">
-    <div class="section-intro">
-      <p class="eyebrow">Selected work at Shopify</p>
-      <h2 id="selected-work-title">A couple of things I’ve built.</h2>
-      <p>Two systems I built after analysing patterns across months of production incidents.</p>
-    </div>
-    <div class="work-grid">
-      <article class="work-card">
-        <p class="work-context">Capacity planning · Ruby · GKE</p>
-        <h3>Database capacity that follows demand</h3>
-        <p>Manual capacity changes could leave databases oversized or short of capacity. I built automation that governs database sizing across Shopify’s entire storefront fleet.</p>
-        <p>It uses a demand model from data science to maintain seasonal baselines, adds capacity for flash sales, and scales back afterward.</p>
-      </article>
-      <article class="work-card">
-        <p class="work-context">Overload protection · Ruby · MySQL</p>
-        <h3>Protecting checkouts when databases are overloaded</h3>
-        <p>I built an adaptive rate limiter integrated across Shopify’s Admin GraphQL API. When databases are under sustained pressure, it slows API traffic to protect checkouts and storefronts.</p>
-        <p>Responders get time to identify the offending workloads and address the problem.</p>
-      </article>
-    </div>
-  </section>
 </article>
