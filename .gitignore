@@ -31,3 +31,6 @@ pnpm-lock.yaml
 
 # Hugo build lock file
 .hugo_build.lock
+
+# Python PDF exporter cache
+__pycache__/

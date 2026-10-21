@@ -38,7 +38,9 @@ npm run build   # Regenerate the PDF, then build Hugo
 npm run pdf     # Regenerate static/Tomasz-Dubiel-CV.pdf only
 ```
 
-The PDF exporter uses Python 3 with no third-party dependencies. Deployment regenerates
+The PDF exporter uses Python 3 with no third-party dependencies and embeds the bundled
+Open Sans fonts from `static/fonts/open-sans/` (license included). The website uses the
+same fonts. Deployment regenerates
 the PDF before building the site. Commit the updated PDF with resume changes so the
 download is also available when running `npm run dev`. The resume page includes a
 print action with a light layout for browser printing or saving as PDF.
