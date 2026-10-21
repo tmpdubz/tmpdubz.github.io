@@ -20,8 +20,8 @@ Support Shopify’s largest merchants through incident command, production inves
 
 Used patterns from months of production incidents to guide two improvements:
 
-- Automated database capacity management across the storefront fleet to handle flash-sale demand and release excess capacity afterward.
-- Developed adaptive rate limiting for the Admin GraphQL API to protect checkout and storefront availability during database overload.
+- Automated database capacity management across the storefront fleet to handle flash-sale demand and release excess capacity afterward
+- Developed adaptive rate limiting for the Admin GraphQL API to protect checkout and storefront availability during database overload
 
 **Technologies:** Ruby, MySQL, Google Kubernetes Engine (GKE)
 
@@ -31,9 +31,9 @@ Used patterns from months of production incidents to guide two improvements:
 
 November 2020 – November 2021 · Acquired by Workforce Software
 
-- Introduced distributed tracing with OpenTelemetry, reducing production issue diagnosis from hours to minutes.
-- Automated capacity scaling during an AWS-to-GCP migration, replacing manual adjustments with data-driven policies.
-- Built an analytics pipeline that let Customer Success generate reports without engineering support.
+- Introduced distributed tracing with OpenTelemetry, reducing production issue diagnosis from hours to minutes
+- Automated capacity scaling during an AWS-to-GCP migration, replacing manual adjustments with data-driven policies
+- Built an analytics pipeline that let Customer Success generate reports without engineering support
 
 **Technologies:** GCP, AWS, Kubernetes, Terraform, OpenTelemetry, Argo CD, BigQuery
 
@@ -43,10 +43,10 @@ November 2020 – November 2021 · Acquired by Workforce Software
 
 August 2017 – October 2020 · Combined tenure at Interset and Micro Focus
 
-- Designed Kubernetes deployments for Interset’s data infrastructure.
-- Led the team delivering the first integration of Interset’s analytics engine with HPE ArcSight.
-- Developed data integrity tests that uncovered critical reliability issues and helped resolve them.
-- Delivered technical training on Spark and Vertica on Kubernetes, and explained ML applications to cross-functional teams.
+- Designed Kubernetes deployments for Interset’s data infrastructure
+- Led the team delivering the first integration of Interset’s analytics engine with HPE ArcSight
+- Developed data integrity tests that uncovered critical reliability issues and helped resolve them
+- Delivered technical training on Spark and Vertica on Kubernetes, and explained ML applications to cross-functional teams
 
 **Technologies:** Kubernetes, Docker, AWS, Kafka, Vertica, ArcSight CDF, SaltStack
 
@@ -56,11 +56,11 @@ August 2017 – October 2020 · Combined tenure at Interset and Micro Focus
 
 August 2017 – February 2019 · Acquired by Micro Focus
 
-- Productionized machine learning models in Scala and Apache Spark in collaboration with data scientists.
-- Investigated production performance problems in Spark and HBase, identifying configuration issues.
-- Optimized SQL queries, reducing run times by up to 60%.
-- Built Vertica integrations and worked with customer-facing teams on critical escalations.
-- Mentored co-op students through project planning and delivery, and led workshops on development tools.
+- Productionized machine learning models in Scala and Apache Spark in collaboration with data scientists
+- Investigated production performance problems in Spark and HBase, identifying configuration issues
+- Optimized SQL queries, reducing run times by up to 60%
+- Built Vertica integrations and worked with customer-facing teams on critical escalations
+- Mentored co-op students through project planning and delivery, and led workshops on development tools
 
 **Technologies:** Scala, Java, Spark, HBase, Kafka, Vertica, Elasticsearch, Docker, Jenkins
 
@@ -70,8 +70,8 @@ August 2017 – February 2019 · Acquired by Micro Focus
 
 April 2016 – August 2017
 
-- Developed the backend in Python and Django and the frontend in Angular and TypeScript.
-- Delivered product demonstrations and answered technical questions from prospective customers and investors.
+- Developed the backend in Python and Django and the frontend in Angular and TypeScript
+- Delivered product demonstrations and answered technical questions from prospective customers and investors
 
 **Technologies:** Python, Django REST Framework, Angular, TypeScript, Celery, RabbitMQ, PostgreSQL
 
@@ -81,8 +81,8 @@ April 2016 – August 2017
 
 March 2015 – October 2015
 
-- Analyzed survey data and developed algorithms to detect abuse and protect data quality.
-- Used sentiment analysis to identify customer experience insights.
+- Analyzed survey data and developed algorithms to detect abuse and protect data quality
+- Used sentiment analysis to identify customer experience insights
 
 **Technologies:** Python
 
