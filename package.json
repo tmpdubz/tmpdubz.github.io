@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/tmpdubz/tmpdubz.github.io#readme",
   "devDependencies": {
-    "blowfish-tools": "^1.10.0"
+    "blowfish-tools": "^3.2.0"
   }
 }
